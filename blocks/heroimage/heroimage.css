@@ -1,0 +1,540 @@
+.hero-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.hero-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero img {
+    object-fit: scale-down;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-text-overlay {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    background: rgba(0, 0, 0, 0.5); /* Optional: dark background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 40%;
+}
+
+.hero-text-overlay h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.hero-text-overlay p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.hero picture {
+    z-index: 0;
+}
+
+.section.hero-container {
+    color: #fff;
+    background: radial-gradient(
+            496.32% 257.59% at -26.17% 99.91%,
+            #204566 2.92%,
+            #035278 4.4%,
+            #025080 11.95%,
+            #031e39 48.82%,
+            #090a19 69.11%,
+            #070716 91.95%,
+            #070510 100%
+        ),
+        radial-gradient(
+            155.09% 266.02% at -17.81% 42.75%,
+            rgba(8, 6, 18, 0.8) 18.2%,
+            rgba(7, 80, 120, 0) 77%
+        );
+    background-blend-mode: overlay;
+}
+
+.hero.block {
+    height: 100vh;
+}
+
+.hero-wrapper img {
+    height: 100vh;
+}
+
+.heroimage-wrapper {
+    position: absolute;
+    bottom: 15%;
+    color: #fff;
+    left: 8%;
+}
+
+.heroimage p:nth-of-type(2) {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.heroimage p:nth-of-type(3) {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.heroimage-wrapper {
+    width: 33%;
+}
+
+.join-hands-wrapper {
+    font-family: var(--font-rubik);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.92px;
+    text-align: left;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    color: #00294d;
+}
+
+.hero-wrapper picture {
+    width: 1260px;
+    margin: 0 auto;
+}
+
+.join-hands-wrapper {
+    width: 1088px;
+    margin: 0 auto;
+}
+
+.practitioner.block div div {
+    display: flex;
+    align-items: center;
+    padding: 28px;
+    background: rgba(150, 211, 255, 0.102);
+    border-radius: 24px;
+    width: 13%;
+    height: 166px;
+    justify-content: center;
+    gap: 0px;
+}
+
+.practitioner.block div div p {
+    margin: 0px;
+    text-align: center;
+}
+
+.practitioner.block div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    height: auto;
+    width: 1088px;
+    margin: 0 auto !important;
+}
+
+.practitioner.block {
+    margin: 96px 0px;
+}
+
+.practitioner-wrapper {
+    width: 1088px;
+    margin: 0 auto;
+}
+
+.offerings.block div div picture img {
+    height: 184px;
+    width: 311px;
+    margin-right: 20px;
+}
+
+.offerings.block div {
+    display: flex;
+    align-items: center;
+}
+
+.offerings-wrapper {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.offerings.block div div:nth-of-type(1) {
+    width: 70%;
+}
+
+.offerings.block div div:nth-of-type(2) {
+    width: 30%;
+}
+
+.experiencecontainer.block div div table tbody tr td p:nth-of-type(3),
+.successcontainer.block div div table tbody tr td p:nth-of-type(3) {
+    text-align: end;
+}
+
+.experiencecontainer.block div div table tbody tr td p:nth-of-type(1),
+.successcontainer.block div div table tbody tr td p:nth-of-type(1) {
+    font-family: var(--font-rubik);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    margin-bottom: 24px;
+}
+
+.experiencecontainer.block div div table tbody tr td p:nth-of-type(2),
+.successcontainer.block div div table tbody tr td p:nth-of-type(2) {
+    font-family: var(--font-rubik);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #3d3d3d;
+    text-align: left;
+    width: 212px;
+    height: 88px;
+}
+
+.offerings.block div div p {
+    font-family: var(--font-rubik);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    text-underline-position: "from-font";
+    -webkit-text-decoration-skip-ink: none;
+    text-decoration-skip-ink: none;
+    color: #00294d;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.experiencecontainer.block div div,
+.successcontainer.block div div {
+    width: 285px;
+}
+
+.experiencecontainer.block div div table {
+    padding: 24px;
+    border: 12px;
+}
+
+.experiencecontainer.block div div table:hover {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(134.95deg, #40a6ff, #00294d 95.9%);
+    color: #fff;
+    cursor: pointer;
+    border: 12px;
+}
+
+.experiencecontainer.block div div {
+    width: 100%;
+    height: auto;
+    gap: 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    background-color: #fff;
+    flex-direction: column;
+    display: flex;
+    margin: 10px;
+}
+
+.experiencecontainer.block div {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 16px;
+    row-gap: 16px;
+    grid-column-gap: 16px;
+    column-gap: 16px;
+    position: relative;
+}
+
+.msmesector.block div {
+    display: grid;
+    grid-gap: 16px;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+}
+
+.partners.block div div table tbody tr td {
+    width: 210px;
+    height: 93px;
+    gap: 0;
+    background: #fff;
+    border-radius: 8px;
+    border: 0.5px solid #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.partners.block div div table tbody tr td picture img {
+    width: 194px;
+    height: 60px;
+    top: 28px;
+    left: 32px;
+    gap: 0;
+    object-fit: contain;
+}
+
+.partners.block div div table tbody {
+    display: flex;
+    gap: 16px;
+}
+
+.partners.block div {
+    display: flex;
+    column-gap: 22%;
+    align-items: center;
+}
+
+.partners.block div:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.partners.block div:nth-of-type(2) p:nth-of-type(1) {
+    font-family: var(--font-rubik);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    color: #1e1e1e;
+}
+
+.keypartners.block div div p {
+    font-family: var(--font-rubik);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.92px;
+    text-align: left;
+    color: #00294d;
+    margin-bottom: 24px;
+    margin-top: 80px;
+}
+
+.ourpractices.block div div p {
+    font-family: var(--font-rubik);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgb(0, 41, 77);
+}
+
+.successstories.block div div p {
+    font-family: var(--font-rubik);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+    text-decoration-skip-ink: none;
+    color: rgb(0, 41, 77);
+    margin-top: 80px;
+}
+
+.testimonials.block div div p {
+    font-family: var(--font-rubik);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    color: #00294d;
+    text-align: left;
+    margin-top: 75px;
+}
+
+.department.block div {
+    width: 100%;
+    height: 264px;
+    column-gap: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.department.block div div:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+}
+
+.department.block div div:nth-of-type(1) p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.department.block div div:nth-of-type(1) p:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+
+.department.block div div table tbody tr td:nth-of-type(1) picture img {
+    width: 240px;
+    height: 240px;
+}
+
+.department.block div div table tbody tr td:nth-of-type(2) picture img {
+    width: 74px;
+    height: 74px;
+}
+
+.department.block div div table tbody tr td:nth-of-type(3) picture img {
+    width: 74px;
+    height: 74px;
+}
+
+.department.block div div p:nth-of-type(3) {
+    font-family: var(--font-rubik);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #1e1e1e;
+    text-align: left;
+}
+
+.department.block div div p:nth-of-type(1) {
+    font-family: var(--font-rubik);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #1e1e1e;
+    text-align: left;
+}
+
+.department.block div div p:nth-of-type(2) {
+    font-family: var(--font-rubik);
+    font-size: 14px;
+    /* font-weight: 500; */
+    line-height: 22px;
+    color: #1e1e1e;
+    text-align: left;
+}
+
+.default-content-wrapper p a {
+    display: none;
+}
+
+.default-content-wrapper p picture img {
+    width: 106px !important;
+    height: 42px;
+}
+
+.default-content-wrapper p span img {
+    display: none;
+}
+
+nav#nav {
+    gap: 125px;
+}
+
+.hero h1 {
+    font-size: 1px;
+}
+
+footer.footer-wrapper {
+    background: #00294d;
+    color: #fff;
+}
+
+main .section.light,
+main .section.highlight {
+    background-color: #fff;
+}
+
+.ourpractices.block div div table {
+    width: 100%;
+}
+
+.ourpractices.block div div table tbody tr td table {
+    width: 100%;
+}
+
+.ourpractices.block div div table tbody tr td table tbody tr td {
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 24px;
+}
+
+.ourpractices.block div div table tbody tr td table tbody tr td picture img {
+    position: absolute;
+    right: 750px;
+    width: 24px;
+}
+
+.footer.block::before {
+    content: "";
+    display: block;
+    background-image: url(.../icons/Dots.png);
+    position: absolute;
+    right: 3px;
+    top: 5px;
+    z-index: 99;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 130px;
+    height: 76px;
+}
+
+.cards > ul > li {
+    border-radius: 10px;
+}
+
+.cards > ul > li img {
+    border-radius: 10px 10px 0 0;
+}
+
+.successcontainer.block div {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+}
+
+.successcontainer.block div div table tbody tr td picture img {
+    width: 388px;
+    height: 232px;
+    border-radius: 10px;
+}
+
+.successcontainer.block div div {
+    width: 388px;
+    height: 232px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    flex-direction: column;
+    display: flex;
+}
+
+main .section.light,
+main .section.highlight {
+    padding: 0px;
+}
+
+.section.highlight.cards-container div h2 {
+    font-family: var(--font-rubik);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.92px;
+    text-align: left;
+    color: #00294d;
+    margin-bottom: 40px;
+}
